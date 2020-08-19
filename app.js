@@ -46,8 +46,8 @@ app.post('/send', (req,res)=>{
   port: 465,
   secure: true, // true for 465, false for other ports
   auth: {
-      user: process.env.USER_NAME, // generated ethereal user
-      pass: process.env.USER_PASSWORD  // generated ethereal password
+      user: "info@derryukere.me", // generated ethereal user
+      pass: "Derryukere1256"  // generated ethereal password
   },
   tls:{
     rejectUnauthorized:false
